@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Task 4</title>
+      <style>
+         h1 {
+            text-align: center;
+            margin: 30px 0 40px 0;
+         }
+         .container {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+         }
+         .gallery {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 50px;
+         }
+         img {
+            width: 40%;
+         }
+         button {
+            height: 40px;
+            padding: 0 15px;
+            width: 150px;
+            background: #324a74;
+            margin: auto;
+            color: aliceblue;
+            cursor: pointer;
+            margin-bottom: 30px;
+         }
+         #text {
+            text-align: center;
+            font-weight: 700;
+            text-transform: uppercase;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <h1>My Gallery</h1>
+         <div class="gallery">
+            <img
+               src="https://assets.gq.ru/photos/5d9f640c82a8020008a42853/16:9/w_1280,c_limit/98e43d24e654c8775a597f7767cb9ed05d04e112.jpeg"
+               alt="#"
+            />
+            <img
+               src="https://m.colta.ru/storage/post/12706/detailed_picture.jpg"
+               alt="#"
+            />
+         </div>
+         <button onclick="clickBtn()">Узнать стоимость</button>
+         <div id="text"></div>
+      </div>
+      <script src="task4.js"></script>
+   </body>
+</html>
