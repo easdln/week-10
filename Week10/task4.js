@@ -5,14 +5,14 @@ function calculateTotalPrice(quantity = 2, price = 15000000) {
 
 //=========================================1========================================================//
 
-/*function clickBtn(){
+function clickBtn(){
    alert(calculateTotalPrice());
-}*/
+}
 
 //========================================2==========================================================//
 
-let text = document.getElementById("text");
+/*let text = document.getElementById("text");
 console.log(text);
 function clickBtn() {
    text.innerHTML = calculateTotalPrice();
-}
+}*/
